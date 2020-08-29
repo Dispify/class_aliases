@@ -1,0 +1,33 @@
+{
+    "name": "dispify/class_aliases",
+    "description": "The function for getting class aliases",
+    "keywords": ["class_aliases", "alias"],
+    "authors": [
+        {
+            "name": "Disparity",
+            "email": "disparity-github@yandex.ru"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dispify\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "scripts": {
+        "test": "@composer exec -v -- phpunit"
+    }
+}
