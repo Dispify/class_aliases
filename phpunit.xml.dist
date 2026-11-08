@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Kept minimal on purpose: this file must be valid for PHPUnit 8.5 through 12. -->
 <phpunit bootstrap="vendor/autoload.php" colors="true">
-  <filter>
-    <whitelist processUncoveredFilesFromWhitelist="true">
-      <directory suffix=".php">./src</directory>
-      <exclude>
-        <directory>./vendor</directory>
-        <directory>./tests</directory>
-      </exclude>
-    </whitelist>
-  </filter>
-  <logging>
-    <log type="coverage-clover" target="./coverage.xml"/>
-  </logging>
   <testsuites>
     <testsuite name="Test Suite">
       <directory>tests/</directory>

@@ -1,6 +1,4 @@
-
-[![Build Status](https://travis-ci.org/Dispify/class_aliases.svg?branch=master)](https://travis-ci.org/Dispify/class_aliases)
-[![codecov](https://codecov.io/gh/Dispify/class_aliases/branch/master/graph/badge.svg)](https://codecov.io/gh/Dispify/class_aliases)
+[![tests](https://github.com/Dispify/class_aliases/actions/workflows/tests.yml/badge.svg)](https://github.com/Dispify/class_aliases/actions/workflows/tests.yml)
 [![GitHub license](https://img.shields.io/github/license/Dispify/class_aliases)](https://github.com/Dispify/class_aliases/blob/master/LICENSE)
 
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/dispify/class_aliases)
